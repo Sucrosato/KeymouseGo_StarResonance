@@ -1,0 +1,105 @@
+// test.json5
+{
+    scripts: [
+        {
+            type: "sequence",
+            events: [
+                {
+                  delay: 324,
+                  event_type: "EK",
+                  action_type: "key down",
+                  action: [
+                    87,
+                    "W",
+                    0,
+                  ],
+                  type: "event",
+                },
+                {
+                  delay: 116,
+                  event_type: "EK",
+                  action_type: "key up",
+                  action: [
+                    87,
+                    "W",
+                    0,
+                  ],
+                  type: "event",
+                },
+                {
+                  delay: 324,
+                  event_type: "EK",
+                  action_type: "key down",
+                  action: [
+                    87,
+                    "W",
+                    0,
+                  ],
+                  type: "event",
+                },
+                {
+                  delay: 116,
+                  event_type: "EK",
+                  action_type: "key up",
+                  action: [
+                    87,
+                    "W",
+                    0,
+                  ],
+                  type: "event",
+                },
+            ],
+            attach: ["cs"]
+        },
+        {
+            type: "sequence",
+            events: [
+                {
+                  delay: 324,
+                  event_type: "EK",
+                  action_type: "key down",
+                  action: [
+                    87,
+                    "W",
+                    0,
+                  ],
+                  type: "event",
+                },
+                {
+                  delay: 116,
+                  event_type: "EK",
+                  action_type: "key up",
+                  action: [
+                    87,
+                    "W",
+                    0,
+                  ],
+                  type: "event",
+                },
+                {
+                  delay: 324,
+                  event_type: "EK",
+                  action_type: "key down",
+                  action: [
+                    87,
+                    "W",
+                    0,
+                  ],
+                  type: "event",
+                },
+                {
+                  delay: 116,
+                  event_type: "EK",
+                  action_type: "key up",
+                  action: [
+                    87,
+                    "W",
+                    0,
+                  ],
+                  type: "event",
+                },
+            ],
+            attach: []
+        },
+    ]
+}

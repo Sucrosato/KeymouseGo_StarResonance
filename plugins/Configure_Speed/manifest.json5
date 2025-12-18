@@ -1,0 +1,10 @@
+{
+   // 基本信息
+   "name": "Configure Speed",
+   "description": "改变程序执行速度，参数speed为整数，范围(0,+∞)，注意程序本身执行也有延时，速率大到一定程度会失效",
+   "author": "Monomux",
+   "version": "1.0",
+   "entry": "Configure_Speed.py",
+   "plugin_class": "ConfigureSpeed",
+   "speed": 0.1 // 速度乘数，大于1时提速
+}
