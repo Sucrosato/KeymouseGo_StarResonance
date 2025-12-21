@@ -43,12 +43,8 @@
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/6_guild_choose_goods.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/6_guild_part_2.json5"],
     },
-    //{
-    //  type: "subroutine",
-    //  path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/7_guild_part_3.json5"],
-    //},
     
   ],
 }

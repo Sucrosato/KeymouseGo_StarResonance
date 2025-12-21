@@ -1,0 +1,10 @@
+{
+   // 基本信息
+   "name": "Locate",
+   "description": "通过图像匹配定位鼠标点击位置",
+   "author": "SucroSato",
+   "version": "1.0",
+   "entry": "locate.py",
+   "plugin_class": "Locate",
+   "speed": 0.1 // 没用
+}

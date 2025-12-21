@@ -20,3 +20,4 @@ class JudgeFunction(PluginInterface):
         funcs['jf'] = judge_function
 
         return funcs
+    
