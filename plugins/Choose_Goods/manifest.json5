@@ -1,0 +1,10 @@
+{
+   // 基本信息
+   "name": "Choose_Goods",
+   "description": "在8个高价协会货运中选择1个合适的，用于决定脚本跳转终点",
+   "author": "SucroSato",
+   "version": "1.0",
+   "entry": "choose_goods.py",
+   "plugin_class": "ChooseGoods",
+   "speed": 0.1 // 没用
+}

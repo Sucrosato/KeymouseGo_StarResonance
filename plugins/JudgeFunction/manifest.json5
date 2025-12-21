@@ -1,0 +1,10 @@
+{
+   // 基本信息
+   "name": "JudgeFunction",
+   "description": "测试判断函数和if语句能力",
+   "author": "me",
+   "version": "1.0",
+   "entry": "JudgeFunction.py",
+   "plugin_class": "JudgeFunction",
+   "speed": 0.1 //暂时没有用
+}
