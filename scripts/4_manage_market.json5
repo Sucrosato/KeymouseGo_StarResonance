@@ -65,12 +65,12 @@
       event_type: "EM",
       action_type: "mouse left down",
       action: [
-        "0.22578125%",
-        "0.19375%",
+        1,
+        1,
       ],
       type: "event",
       call: ["lct"],
-      variable: ["feierfukuangshi", [476, 157, 1032, 838]],
+      variable: ["feierfukuangshi", [476, 157, 1032, 1200]],
     },
     {
       delay: 104,

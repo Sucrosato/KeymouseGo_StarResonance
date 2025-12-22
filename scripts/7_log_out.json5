@@ -1,0 +1,44 @@
+{
+  scripts: [
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.965234375%",
+        "0.9263888888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 113,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.965234375%",
+        "0.9263888888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.626171875%",
+        "0.7451388888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 90,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.626171875%",
+        "0.7451388888888889%",
+      ],
+      type: "event",
+    },
+  ],
+}

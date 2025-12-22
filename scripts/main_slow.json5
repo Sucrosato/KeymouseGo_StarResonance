@@ -45,6 +45,10 @@
       type: "subroutine",
       path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/6_guild_part_2.json5"],
     },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/7_log_out.json5"],
+    },
     
   ],
 }

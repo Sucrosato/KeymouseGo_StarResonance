@@ -9,14 +9,16 @@
         "0.6201388888888889%",
       ],
       type: "event",
+      call: ["lct"],
+      variable: ["xiehui", [1737, 810, 663, 585]]
     },
     {
       delay: 112,
       event_type: "EM",
       action_type: "mouse left up",
       action: [
-        "0.75546875%",
-        "0.6201388888888889%",
+        -1,
+        -1
       ],
       type: "event",
     },

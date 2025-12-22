@@ -35,8 +35,9 @@ class ChooseGoods(PluginInterface):
             # reader=easyocr.Reader(['en'], gpu=False, verbose=False)    # 少废话
             custom_config = r'--oem 3 --psm 7 -c tessedit_char_whitelist=0123456789'
             for i, region in enumerate(regions):
-                filename = str(i) + '.png'
+                filename = 'plugins/Choose_Goods/screenshots/' + str(i) + '.png'
                 screenshot = pyautogui.screenshot(region=region)
+                screenshot.save(filename)
                 result = pytesseract.image_to_string(screenshot, config=custom_config)
 
                 # result = ocr.classification(screenshot)
@@ -59,12 +60,18 @@ class ChooseGoods(PluginInterface):
             target = decide_target(get_prices(regions))
             # delay: int = jsonObject.content['delay']
             # factor = self.meta.speed
+            if jsonObject.content.get('variable') == 'in_if':
+                if target != -1:
+                    jsonObject.content['do'][0]['action'] = pos[target]
+                    return True
+                else:
+                    return False
+                
             if target != -1:
                 jsonObject.content['action'] = pos[target]
-            else:
-                jsonObject.content['type'] = "goto"
-                jsonObject.content['tolabel'] = "esc"
-                
+            
+
+
         funcs['cg'] = choose_goods
 
         return funcs
