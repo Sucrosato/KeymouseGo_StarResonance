@@ -1,7 +1,34 @@
 {
   scripts: [
 
-    
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/0_log_in.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/1_switch_channel_move_camera.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2_dig_five_ores.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2_dig_five_ores.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2_dig_five_ores.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2_dig_five_ores.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/3_get_daily_bonus.json5"],
+    },
     {
       type: "subroutine",
       path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/4_manage_market.json5"],

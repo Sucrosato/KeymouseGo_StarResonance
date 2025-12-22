@@ -62,8 +62,9 @@ class ChooseGoods(PluginInterface):
             if target != -1:
                 jsonObject.content['action'] = pos[target]
             else:
-                jsonObject.content['event'] = "goto"
+                jsonObject.content['type'] = "goto"
                 jsonObject.content['tolabel'] = "esc"
+                
         funcs['cg'] = choose_goods
 
         return funcs

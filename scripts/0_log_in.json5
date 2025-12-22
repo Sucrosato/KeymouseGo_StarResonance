@@ -1,7 +1,7 @@
 {
   scripts: [
     {
-      delay: 1000,
+      delay: 5000,
       event_type: "EM",
       action_type: "mouse left down",
       action: [
@@ -21,7 +21,7 @@
       type: "event",
     },
     {
-      delay: 1000,
+      delay: 2000,
       event_type: "EM",
       action_type: "mouse left down",
       action: [

@@ -1,0 +1,12 @@
+{
+  scripts: [
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/main.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/main.json5"],
+    },
+  ],
+}
