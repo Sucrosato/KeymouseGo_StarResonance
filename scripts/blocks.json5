@@ -1,17 +1,19 @@
 {
-  scripts: [],
+  scripts: [
+
+  ],
 }
 
-    {
-      delay: 2000,
-      event_type: "EM",
-      action_type: "mouse left up",
-      action: [
-        -1,
-        -1,
-      ],
-      type: "event",
-    },
+{
+  delay: 1000,
+  event_type: "EM",
+  action_type: "mouse left up",
+  action: [
+    -1,
+    -1,
+  ],
+  type: "event",
+},
 
   {
    // jsonobject类型
@@ -31,3 +33,26 @@
    tolabel: "label",
    label: <str>
 }
+
+{
+  delay: 4364,
+  event_type: "EK",
+  action_type: "key down",
+  action: [
+    27,
+    "Escape",
+    0,
+  ],
+  type: "event",
+},
+{
+  delay: 104,
+  event_type: "EK",
+  action_type: "key up",
+  action: [
+    27,
+    "Escape",
+    0,
+  ],
+  type: "event",
+},

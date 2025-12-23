@@ -1,0 +1,10 @@
+{
+   // 基本信息
+   "name": "Loop",
+   "description": "循环直到指定事件",
+   "author": "SucroSato",
+   "version": "1.0",
+   "entry": "loop.py",
+   "plugin_class": "Loop",
+   "speed": 0.1 // 没用
+}

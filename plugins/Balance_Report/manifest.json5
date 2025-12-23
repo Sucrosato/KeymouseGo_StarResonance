@@ -1,0 +1,10 @@
+{
+   // 基本信息
+   "name": "Balance_Report",
+   "description": "自动获取id和非绑卢诺，在csv中统计",
+   "author": "SucroSato",
+   "version": "1.0",
+   "entry": "balance_report.py",
+   "plugin_class": "BalanceReport",
+   "speed": 0.1 // 没用
+}

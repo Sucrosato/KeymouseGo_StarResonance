@@ -21,7 +21,7 @@
       type: "event",
     },
     {
-      delay: 2000,
+      delay: 5000,
       event_type: "EM",
       action_type: "mouse left down",
       action: [
@@ -60,5 +60,16 @@
       ],
       type: "event",
     },
+    {
+      delay: 12000,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
+      ],
+      type: "event",
+    },
+
   ],
 }
