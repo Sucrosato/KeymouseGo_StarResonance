@@ -33,17 +33,7 @@ class Locate(PluginInterface):
                 return True
             except:
                 return False
-            #    target = None
-
-
-            # target = decide_target(get_prices(regions))
-            # delay: int = jsonObject.content['delay']
-            # factor = self.meta.speed
             
-            else:
-                pass
-                # jsonObject.content['type'] = "goto"
-                # jsonObject.content['tolabel'] = "exit_market"
         funcs['lct'] = locate
 
         return funcs

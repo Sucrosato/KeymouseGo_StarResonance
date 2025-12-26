@@ -128,7 +128,7 @@ def subrun():
 
 if __name__ == '__main__':
     ids = get_accounts()
-    for id in ids[2:]:
+    for id in ids[1:]: 
         login(id)
         subrun()
         logout()

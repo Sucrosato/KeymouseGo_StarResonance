@@ -43,7 +43,7 @@
       type: "event",
     },
     {
-      delay: 10000,
+      delay: 15000,
       event_type: "EK",
       action_type: "key down",
       action: [

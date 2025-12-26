@@ -62,3 +62,6 @@ def update_daily_report():
     # index=True 会把“日期”这一列写进去
     df.to_csv(DATA_FILE, encoding='utf-8-sig')
     print(f"已更新报表：{today_str} | {account_id} | 余额: {balance}")
+
+if __name__=='__main__':
+    update_daily_report()

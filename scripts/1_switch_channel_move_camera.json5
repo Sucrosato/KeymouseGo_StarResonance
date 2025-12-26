@@ -121,7 +121,7 @@
       type: "event",
     },
     {
-      delay: 9396,
+      delay: 15000,
       event_type: "EK",
       action_type: "key down",
       action: [
