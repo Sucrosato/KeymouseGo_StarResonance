@@ -121,6 +121,28 @@
       type: "event",
     },
     {
+      delay: 1000,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        27,
+        "Escape",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 104,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        27,
+        "Escape",
+        0,
+      ],
+      type: "event",
+    },
+    {
       delay: 15000,
       event_type: "EK",
       action_type: "key down",
@@ -143,7 +165,7 @@
     },
     
     {
-      delay: 10,
+      delay: 100,
       event_type: "EM",
       action_type: "mouse move",
       action: [

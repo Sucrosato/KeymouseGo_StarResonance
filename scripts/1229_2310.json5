@@ -1,0 +1,70 @@
+{
+  scripts: [
+    {
+      delay: 1044,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 1014,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 496,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 496,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 497,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 25,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+  ],
+}

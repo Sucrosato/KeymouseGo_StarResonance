@@ -1,0 +1,2612 @@
+{
+  scripts: [
+    {
+      delay: 545,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 107,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 776,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.499609375%",
+        "0.49930555555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.496875%",
+        "0.4979166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.490234375%",
+        "0.49583333333333335%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.4796875%",
+        "0.49236111111111114%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.462890625%",
+        "0.4875%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.4375%",
+        "0.4798611111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.410546875%",
+        "0.4708333333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.38046875%",
+        "0.4625%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.346484375%",
+        "0.45208333333333334%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.31171875%",
+        "0.4423611111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.275%",
+        "0.43333333333333335%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.246875%",
+        "0.425%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.225%",
+        "0.41944444444444445%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.21015625%",
+        "0.41458333333333336%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.19921875%",
+        "0.41041666666666665%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.19140625%",
+        "0.4076388888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.18515625%",
+        "0.4048611111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.180078125%",
+        "0.40208333333333335%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.174609375%",
+        "0.3993055555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.16953125%",
+        "0.3951388888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.164453125%",
+        "0.3888888888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.158984375%",
+        "0.38263888888888886%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.153515625%",
+        "0.3763888888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.1484375%",
+        "0.37083333333333335%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.14453125%",
+        "0.36666666666666664%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.141796875%",
+        "0.3625%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.13984375%",
+        "0.36041666666666666%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.13828125%",
+        "0.3590277777777778%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.136328125%",
+        "0.35625%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.133984375%",
+        "0.3541666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 21,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.13203125%",
+        "0.35208333333333336%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 57,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.131640625%",
+        "0.35208333333333336%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 21,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.131640625%",
+        "0.35138888888888886%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 87,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.131640625%",
+        "0.35138888888888886%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 316,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.131640625%",
+        "0.35138888888888886%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.133984375%",
+        "0.35555555555555557%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.13828125%",
+        "0.3625%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.14453125%",
+        "0.3729166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.153125%",
+        "0.38819444444444445%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.163671875%",
+        "0.40694444444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.175390625%",
+        "0.43125%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.186328125%",
+        "0.45694444444444443%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.199609375%",
+        "0.4895833333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.2171875%",
+        "0.53125%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.2359375%",
+        "0.5756944444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.255859375%",
+        "0.6243055555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.275%",
+        "0.66875%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.29296875%",
+        "0.7097222222222223%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.31171875%",
+        "0.7506944444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.328125%",
+        "0.7895833333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.340625%",
+        "0.8229166666666666%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.35%",
+        "0.8479166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.355078125%",
+        "0.8645833333333334%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.358984375%",
+        "0.8756944444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.36171875%",
+        "0.8854166666666666%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.36328125%",
+        "0.8923611111111112%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.36484375%",
+        "0.8986111111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.365625%",
+        "0.90625%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.366796875%",
+        "0.9145833333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.3671875%",
+        "0.9215277777777777%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.3671875%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 52,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.3671875%",
+        "0.9270833333333334%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 113,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.3671875%",
+        "0.9270833333333334%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.3671875%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.36640625%",
+        "0.9215277777777777%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 105,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.366015625%",
+        "0.9201388888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 115,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.366015625%",
+        "0.9201388888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.3671875%",
+        "0.9201388888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.372265625%",
+        "0.9201388888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.380859375%",
+        "0.9208333333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.39296875%",
+        "0.9215277777777777%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.408203125%",
+        "0.9222222222222223%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.42421875%",
+        "0.9236111111111112%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.441015625%",
+        "0.9243055555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.45546875%",
+        "0.9243055555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.4703125%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.483984375%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.496875%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.51015625%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.52265625%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.53671875%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.55%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.5609375%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.569140625%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.573046875%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 250,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.57421875%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 132,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.57421875%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.571484375%",
+        "0.925%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.56484375%",
+        "0.9270833333333334%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.552734375%",
+        "0.9291666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.535546875%",
+        "0.93125%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.5140625%",
+        "0.9326388888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.49375%",
+        "0.9347222222222222%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.47265625%",
+        "0.9375%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.455078125%",
+        "0.9402777777777778%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.4390625%",
+        "0.9423611111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.425390625%",
+        "0.94375%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.41328125%",
+        "0.9444444444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.405078125%",
+        "0.9444444444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.397265625%",
+        "0.9444444444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.390234375%",
+        "0.9444444444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.383984375%",
+        "0.9444444444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.379296875%",
+        "0.9444444444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.375%",
+        "0.9430555555555555%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.37109375%",
+        "0.9416666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.36796875%",
+        "0.9402777777777778%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.36484375%",
+        "0.9388888888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.362890625%",
+        "0.9381944444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 43,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.36171875%",
+        "0.9375%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 61,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.36171875%",
+        "0.9368055555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.3609375%",
+        "0.9347222222222222%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.360546875%",
+        "0.9326388888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.359765625%",
+        "0.93125%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 22,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.359375%",
+        "0.9291666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 24,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.358984375%",
+        "0.9284722222222223%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 26,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.358984375%",
+        "0.9277777777777778%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 391,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.358984375%",
+        "0.9270833333333334%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.359375%",
+        "0.9243055555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 20,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.359765625%",
+        "0.9222222222222223%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 23,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.36015625%",
+        "0.9201388888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 479,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.360546875%",
+        "0.9201388888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 100,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.360546875%",
+        "0.9201388888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 299,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.360546875%",
+        "0.9201388888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.3640625%",
+        "0.9194444444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.37265625%",
+        "0.9194444444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.3875%",
+        "0.9201388888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.40859375%",
+        "0.9215277777777777%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.43515625%",
+        "0.9229166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.46328125%",
+        "0.9229166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.492578125%",
+        "0.9229166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.519140625%",
+        "0.9194444444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.544140625%",
+        "0.9145833333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.565625%",
+        "0.9083333333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.588671875%",
+        "0.9027777777777778%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.6109375%",
+        "0.8986111111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.630859375%",
+        "0.89375%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.650390625%",
+        "0.8888888888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.668359375%",
+        "0.8861111111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.686328125%",
+        "0.8826388888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.703515625%",
+        "0.8791666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.718359375%",
+        "0.8770833333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.73203125%",
+        "0.8763888888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.74296875%",
+        "0.8756944444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.7515625%",
+        "0.875%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.759375%",
+        "0.875%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.7671875%",
+        "0.8743055555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.773828125%",
+        "0.8736111111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.7796875%",
+        "0.8729166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.783984375%",
+        "0.8715277777777778%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 232,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.785546875%",
+        "0.8708333333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.785546875%",
+        "0.8680555555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 19,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.783984375%",
+        "0.8645833333333334%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 30,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.783984375%",
+        "0.8631944444444445%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 18,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.78359375%",
+        "0.8625%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 335,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.78359375%",
+        "0.8618055555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 530,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.78359375%",
+        "0.8611111111111112%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 90,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.78359375%",
+        "0.8611111111111112%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 143,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.78359375%",
+        "0.8611111111111112%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.786328125%",
+        "0.8611111111111112%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.79375%",
+        "0.8638888888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.80078125%",
+        "0.8666666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.8078125%",
+        "0.8694444444444445%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.812109375%",
+        "0.8722222222222222%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.81484375%",
+        "0.8729166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.817578125%",
+        "0.875%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.82109375%",
+        "0.8770833333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.8265625%",
+        "0.8798611111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.832421875%",
+        "0.8826388888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.838671875%",
+        "0.8861111111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.842578125%",
+        "0.8875%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.8453125%",
+        "0.8888888888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.847265625%",
+        "0.8902777777777777%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.849609375%",
+        "0.8916666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.851953125%",
+        "0.8923611111111112%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.854296875%",
+        "0.89375%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.856640625%",
+        "0.89375%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.860546875%",
+        "0.8944444444444445%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.86484375%",
+        "0.8972222222222223%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.8703125%",
+        "0.8993055555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.875390625%",
+        "0.9006944444444445%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.879296875%",
+        "0.9020833333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.881640625%",
+        "0.9020833333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 19,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.88359375%",
+        "0.9027777777777778%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 19,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.885546875%",
+        "0.9027777777777778%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.887890625%",
+        "0.9034722222222222%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 18,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.889453125%",
+        "0.9041666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.890625%",
+        "0.9041666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 76,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.891796875%",
+        "0.9048611111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.892578125%",
+        "0.90625%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.89375%",
+        "0.9069444444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.89453125%",
+        "0.9076388888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 636,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.894921875%",
+        "0.9083333333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 80,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.894921875%",
+        "0.9083333333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 220,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.894921875%",
+        "0.9083333333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.89453125%",
+        "0.9104166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 23,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.894140625%",
+        "0.9104166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 2204,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.89375%",
+        "0.9104166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.891015625%",
+        "0.9104166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.88828125%",
+        "0.9118055555555555%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.885546875%",
+        "0.9152777777777777%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.88203125%",
+        "0.9201388888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.87890625%",
+        "0.9236111111111112%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.875390625%",
+        "0.9263888888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 36,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.872265625%",
+        "0.9263888888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 668,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.872265625%",
+        "0.9270833333333334%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 36,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.8734375%",
+        "0.9152777777777777%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 30,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.873828125%",
+        "0.9152777777777777%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 19,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.875%",
+        "0.9104166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.8734375%",
+        "0.9083333333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.87265625%",
+        "0.9055555555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 20,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.8734375%",
+        "0.9034722222222222%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 22,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.873828125%",
+        "0.9020833333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.873828125%",
+        "0.9013888888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16803,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 813,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 1436,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 104,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 886,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.499609375%",
+        "0.49930555555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.50078125%",
+        "0.5076388888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.503515625%",
+        "0.5215277777777778%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.505859375%",
+        "0.5361111111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.5078125%",
+        "0.5479166666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.510546875%",
+        "0.5611111111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.51328125%",
+        "0.575%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.516015625%",
+        "0.5868055555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.51875%",
+        "0.5993055555555555%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.522265625%",
+        "0.6111111111111112%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.525390625%",
+        "0.6236111111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.528515625%",
+        "0.6347222222222222%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.53125%",
+        "0.6444444444444445%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.53515625%",
+        "0.6555555555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.540234375%",
+        "0.6701388888888888%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.546875%",
+        "0.6868055555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.554296875%",
+        "0.7034722222222223%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.56015625%",
+        "0.7173611111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.566015625%",
+        "0.73125%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.57109375%",
+        "0.74375%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.576171875%",
+        "0.75625%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.58125%",
+        "0.7680555555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.586328125%",
+        "0.7791666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.591015625%",
+        "0.7895833333333333%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.5953125%",
+        "0.7972222222222223%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.59921875%",
+        "0.8055555555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.601953125%",
+        "0.8118055555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.605859375%",
+        "0.81875%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.608984375%",
+        "0.8256944444444444%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.6125%",
+        "0.83125%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.614453125%",
+        "0.8347222222222223%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 36,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.615625%",
+        "0.8361111111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 16,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.61640625%",
+        "0.8381944444444445%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.61796875%",
+        "0.8402777777777778%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 17,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.61875%",
+        "0.8416666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 18,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.61953125%",
+        "0.8423611111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 27,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.619921875%",
+        "0.84375%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 380,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.6203125%",
+        "0.8451388888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 86,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.6203125%",
+        "0.8451388888888889%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 8961,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 108,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+  ],
+}

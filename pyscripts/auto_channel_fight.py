@@ -17,9 +17,11 @@ def v1(times=80, period=10, channel_buffer=10, max_channel=25, start_channel=1):
         sleep(1)
         pyautogui.press('esc')
         sleep(channel_buffer)
-        mouse.click(Button.x1, 1)
+        # mouse.click(Button.x1, 1)
+        pyautogui.mouseDown(1280, 720)
         sleep(period)
+        pyautogui.mouseUp(1280, 720)
 
 if __name__ == '__main__':
     sleep(3)
-    v1(start_channel=13, period=10, times=100)
+    v1(start_channel=13, period=10, times=100, max_channel=80)

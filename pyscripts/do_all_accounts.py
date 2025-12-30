@@ -18,8 +18,8 @@ from pytesseract import Output
 
 def get_accounts():
     return [
-        '3610876935',
         '3151557406',
+        '3610876935',
         '1597036577',
         '3220825744',
     ]
@@ -128,7 +128,7 @@ def subrun():
 
 if __name__ == '__main__':
     ids = get_accounts()
-    for id in ids[1:]: 
+    for id in ids[:]: 
         login(id)
         subrun()
         logout()

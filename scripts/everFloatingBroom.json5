@@ -1,0 +1,69 @@
+{
+  scripts: [
+    {
+      delay: 1204,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        50,
+        "2",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 1005,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        50,
+        "2",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 500,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        50,
+        "2",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 500,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        50,
+        "2",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 11,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        50,
+        "2",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 540000,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
+      ],
+      type: "event",
+    },
+  ],
+}

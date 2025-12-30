@@ -18,7 +18,7 @@ def get_coords_on_click():
         if pressed:
             if button == mouse.Button.left:
                 # 打印格式方便直接复制到 pyautogui 代码中
-                print(f"捕获坐标: ({x}, {y})")
+                print(f"({x}, {y})")
             
             elif button == mouse.Button.right:
                 # 这是一个常用的停止监听器的方法：返回 False

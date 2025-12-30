@@ -1,0 +1,36 @@
+{
+  scripts: [
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_rock_snake/b0.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_rock_snake/b1.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_rock_snake/b2.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_rock_snake/b3.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_rock_snake/b4.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_rock_snake/b5.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_rock_snake/b6.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_rock_snake/b7.json5"],
+    },
+  ],
+}

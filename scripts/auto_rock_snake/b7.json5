@@ -1,0 +1,124 @@
+{
+  scripts: [
+    {
+      delay: 913,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.9171875%",
+        "0.04861111111111111%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 236,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.9171875%",
+        "0.04791666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 104,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.9171875%",
+        "0.04791666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 160,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.9171875%",
+        "0.04791666666666667%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 101,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.8171875%",
+        "0.2%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 100,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.709375%",
+        "0.47152777777777777%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 100,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.663671875%",
+        "0.60625%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 100,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.63515625%",
+        "0.675%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 101,
+      event_type: "EM",
+      action_type: "mouse move",
+      action: [
+        "0.62265625%",
+        "0.7180555555555556%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 464,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.62109375%",
+        "0.7243055555555555%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 94,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.62109375%",
+        "0.7243055555555555%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 15000,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
+      ],
+      type: "event",
+    },
+  ],
+}

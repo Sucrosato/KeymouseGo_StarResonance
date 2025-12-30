@@ -60,6 +60,59 @@
       ],
       type: "event",
     },
+
+    {
+      // jsonobject类型
+      type: "if",
+      judge: "lct",
+      do: [
+        {
+          delay: 1000,
+          event_type: "EM",
+          action_type: "mouse left down",
+          action: [
+            1935,
+            280
+          ],
+          type: "event",
+        },
+        {
+          delay: 82,
+          event_type: "EM",
+          action_type: "mouse left up",
+          action: [
+            -1,
+            -1
+          ],
+          type: "event",
+        },
+      ],
+      else: [
+        {
+          delay: 1,
+          event_type: "EM",
+          action_type: "mouse left up",
+          action: [
+            -1,
+            -1,
+          ],
+          type: "event",
+        },
+      ],
+      variable: ["chaoshi", [1747, 286, 55, 28]]
+    },
+
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
+      ],
+      type: "event",
+    },
+
     {
       delay: 1000,
       event_type: "EM",

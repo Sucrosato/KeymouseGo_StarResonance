@@ -50,11 +50,16 @@ def update_daily_report():
     # 如果该账号（列）还没出现过，Pandas 会自动增加这一列
     if account_id not in df.columns:
         df[account_id] = None
-
+    if 'TOTAL' not in df.columns:
+        df['TOTAL'] = None
     # 3. 定位到“今天”这一行并更新对应的“账号”列
     # 如果今天还没记录过，.loc 会自动创建新行
     df.loc[today_str, account_id] = balance
 
+    account_columns = [column for column in df.columns if column != 'TOTAL']
+    df.loc[today_str, 'TOTAL'] = df.loc[today_str, account_columns].sum()
+    columns = account_columns + ['TOTAL']
+    df = df[columns]
     # 4. 排序（可选：按日期由近到远排序，或者按账号ID排序）
     df.sort_index(ascending=False, inplace=True) # 最近日期在最上面
 

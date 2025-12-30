@@ -3,51 +3,51 @@
 
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/0_log_in.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/0_log_in.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/1_switch_channel_move_camera.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/1_switch_channel_move_camera.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2_dig_five_ores.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_dig_five_ores.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2_dig_five_ores.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_dig_five_ores.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2_dig_five_ores.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_dig_five_ores.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2_dig_five_ores.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_dig_five_ores.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/3_get_daily_bonus.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/3_get_daily_bonus.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/4_manage_market.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/4_manage_market.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/5_guild_part_1.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/5_guild_part_1.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/6_guild_part_2.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/6_guild_part_2.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/6b_balance_report.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/6b_balance_report.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/7_log_out.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/7_log_out.json5"],
     },
     
   ],
