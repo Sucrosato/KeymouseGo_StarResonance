@@ -894,6 +894,39 @@
       type: "event",
     },
     {
+      delay: 451,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        68,
+        "D",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 1002,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        68,
+        "D",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 1000,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        68,
+        "D",
+        0,
+      ],
+      type: "event",
+    },
+    {
       delay: 6080,
       event_type: "EK",
       action_type: "key down",
