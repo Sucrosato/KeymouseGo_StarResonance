@@ -4,18 +4,6 @@ import pytesseract
 import time
 from pytesseract import Output
 
-# 运行简单指令（如：ls 或 dir）
-# capture_output=True 表示捕获输出结果
-# text=True 表示以字符串形式返回结果（否则是字节流）
-# result = subprocess.run([r'E:\Apps\git_repos\KeymouseGo\dist\KeymouseGo.exe', r'E:\Apps\git_repos\KeymouseGo\dist\scripts\test.json5'], capture_output=True, text=True)
-
-# # 打印输出内容
-# print("指令输出：", result.stdout)
-# # 打印错误信息
-# print("错误信息：", result.stderr)
-# # 打印返回码（0 通常代表成功）
-# print("退出状态：", result.returncode)
-
 def get_accounts():
     return [
         '3151557406',

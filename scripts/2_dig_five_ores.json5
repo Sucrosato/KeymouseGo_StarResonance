@@ -1,87 +1,62 @@
 {
   scripts: [
     {
-      delay: 1000,
-      event_type: "EM",
-      action_type: "mouse left down",
+      delay: 429,
+      event_type: "EK",
+      action_type: "key down",
       action: [
-        "0.75546875%",
-        "0.6201388888888889%",
-      ],
-      type: "event",
-      call: ["lct"],
-      variable: ["xiehui", [1737, 810, 663, 585]]
-    },
-    {
-      delay: 112,
-      event_type: "EM",
-      action_type: "mouse left up",
-      action: [
-        -1,
-        -1
+        70,
+        "F",
+        0,
       ],
       type: "event",
     },
     {
-      delay: 1000,
-      event_type: "EM",
-      action_type: "mouse left down",
+      delay: 71,
+      event_type: "EK",
+      action_type: "key up",
       action: [
-        "0.838671875%",
-        "0.9041666666666667%",
+        70,
+        "F",
+        0,
       ],
       type: "event",
     },
     {
-      delay: 129,
-      event_type: "EM",
-      action_type: "mouse left up",
+      delay: 3269,
+      event_type: "EK",
+      action_type: "key down",
       action: [
-        "0.838671875%",
-        "0.9041666666666667%",
+        68,
+        "D",
+        0,
       ],
       type: "event",
     },
     {
-      delay: 15000,
-      event_type: "EM",
-      action_type: "mouse left up",
+      delay: 716,
+      event_type: "EK",
+      action_type: "key up",
       action: [
-        "0.838671875%",
-        "0.9041666666666667%",
+        68,
+        "D",
+        0,
       ],
       type: "event",
     },
-//检测是否进入协会
     {
-      type: "if", 
-      judge: "lct",
-      do: [
-        {
-          delay: 1000,
-          event_type: "EK",
-          action_type: "key down",
-          action: [
-            87,
-            "W",
-            0,
-          ],
-          type: "event",
-        },
+      delay: 239,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
       ],
-      else: [
-        {
-          type: "goto",
-          tolabel: "esc", 
-        }
-      ],
-      variable: ["fangzi", [1186, 413, 68, 68]]
+      type: "event",
     },
-
-    
-     
     {
-      delay: 1052,
+      delay: 361,
       event_type: "EK",
       action_type: "key up",
       action: [
@@ -92,7 +67,7 @@
       type: "event",
     },
     {
-      delay: 1044,
+      delay: 207,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -103,7 +78,7 @@
       type: "event",
     },
     {
-      delay: 96,
+      delay: 73,
       event_type: "EK",
       action_type: "key up",
       action: [
@@ -114,34 +89,166 @@
       type: "event",
     },
     {
-      delay: 1524,
+      delay: 3363,
       event_type: "EK",
       action_type: "key down",
       action: [
-        27,
-        "Escape",
+        83,
+        "S",
         0,
       ],
       type: "event",
     },
     {
-      delay: 80,
+      delay: 696,
       event_type: "EK",
       action_type: "key up",
       action: [
-        27,
-        "Escape",
+        83,
+        "S",
         0,
       ],
       type: "event",
     },
     {
-      delay: 2216,
+      delay: 424,
       event_type: "EK",
       action_type: "key down",
       action: [
-        68,
-        "D",
+        65,
+        "A",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 752,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        65,
+        "A",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 548,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 48,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 4001,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 264,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 164,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        65,
+        "A",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 772,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        65,
+        "A",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 295,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 573,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 184,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 59,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 3564,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
         0,
       ],
       type: "event",
@@ -151,58 +258,47 @@
       event_type: "EK",
       action_type: "key down",
       action: [
-        68,
-        "D",
+        87,
+        "W",
         0,
       ],
       type: "event",
     },
     {
-      delay: 496,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        68,
-        "D",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 497,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        68,
-        "D",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 499,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        68,
-        "D",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 371,
+      delay: 292,
       event_type: "EK",
       action_type: "key up",
       action: [
-        68,
-        "D",
+        87,
+        "W",
         0,
       ],
       type: "event",
     },
     {
-      delay: 664,
+      delay: 448,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 83,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 4148,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -213,7 +309,29 @@
       type: "event",
     },
     {
-      delay: 572,
+      delay: 1010,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        83,
+        "S",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 491,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        83,
+        "S",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 428,
       event_type: "EK",
       action_type: "key up",
       action: [
@@ -224,144 +342,34 @@
       type: "event",
     },
     {
-      delay: 1116,
+      delay: 612,
       event_type: "EK",
       action_type: "key down",
       action: [
-        70,
-        "F",
+        68,
+        "D",
         0,
       ],
       type: "event",
     },
     {
-      delay: 84,
+      delay: 800,
       event_type: "EK",
       action_type: "key up",
       action: [
-        70,
-        "F",
+        68,
+        "D",
         0,
       ],
       type: "event",
     },
     {
-      delay: 1700,
+      delay: 4399,
       event_type: "EK",
       action_type: "key down",
       action: [
-        70,
-        "F",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 72,
-      event_type: "EK",
-      action_type: "key up",
-      action: [
-        70,
-        "F",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 988,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        70,
-        "F",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 56,
-      event_type: "EK",
-      action_type: "key up",
-      action: [
-        70,
-        "F",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 1748,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        70,
-        "F",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 92,
-      event_type: "EK",
-      action_type: "key up",
-      action: [
-        70,
-        "F",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 1696,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        70,
-        "F",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 64,
-      event_type: "EK",
-      action_type: "key up",
-      action: [
-        70,
-        "F",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 1276,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        70,
-        "F",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 64,
-      event_type: "EK",
-      action_type: "key up",
-      action: [
-        70,
-        "F",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 1448,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        70,
-        "F",
+        87,
+        "W",
         0,
       ],
       type: "event",
@@ -371,14 +379,11 @@
       event_type: "EK",
       action_type: "key up",
       action: [
-        70,
-        "F",
+        87,
+        "W",
         0,
       ],
       type: "event",
-      label: "esc",
     },
-
-
   ],
 }
