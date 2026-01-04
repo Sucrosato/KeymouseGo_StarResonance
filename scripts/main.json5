@@ -43,10 +43,6 @@
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/6b_balance_report.json5"],
-    },
-    {
-      type: "subroutine",
       path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/7_log_out.json5"],
     },
     

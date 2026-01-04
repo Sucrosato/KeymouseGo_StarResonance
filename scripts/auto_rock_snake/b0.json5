@@ -10,6 +10,8 @@
         0,
       ],
       type: "event",
+      call: ["lct"],
+      variable: ["yanshechaoxue", [1942, 742, 85, 25], "hold"]
     },
     {
       delay: 107,

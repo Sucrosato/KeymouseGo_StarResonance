@@ -94,7 +94,7 @@ def login(target_id):
     time.sleep(5)
 
     pyautogui.click(1705, 1005)
-    time.sleep(60)
+    time.sleep(45)
     print("流程结束。")
 
 def logout():
@@ -116,7 +116,7 @@ def subrun():
 
 if __name__ == '__main__':
     ids = get_accounts()
-    for id in ids[:]: 
+    for id in ids[2:]: 
         login(id)
         subrun()
         logout()

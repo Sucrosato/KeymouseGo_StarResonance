@@ -223,18 +223,78 @@
       event_type: "EM",
       action_type: "mouse left down",
       action: [
-        "0.790234375%",
-        "0.45694444444444443%",
+        "0.641796875%",
+        "0.41180555555555554%",
       ],
       type: "event",
     },
     {
-      delay: 105,
+      delay: 95,
       event_type: "EM",
       action_type: "mouse left up",
       action: [
-        "0.790234375%",
-        "0.45694444444444443%",
+        "0.641796875%",
+        "0.41180555555555554%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.629296875%",
+        "0.32222222222222224%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 56,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.629296875%",
+        "0.32222222222222224%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.673828125%",
+        "0.32083333333333336%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 61,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.673828125%",
+        "0.32083333333333336%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.707421875%",
+        "0.32083333333333336%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 78,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        "0.707421875%",
+        "0.32083333333333336%",
       ],
       type: "event",
     },

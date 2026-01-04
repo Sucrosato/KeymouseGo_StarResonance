@@ -3,6 +3,52 @@
     {
       delay: 1000,
       event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1
+      ],
+      type: "event",
+    },
+    {
+      delay: 1,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+          -1,
+          -1,
+      ],
+      type: "event",
+      call: ["loop"],
+      variable: ["find", ["shezhi", [2440, 130, 94, 117]], 1.0, "press", "esc"]
+    },
+//balance report
+    {
+        delay: 1000,
+        event_type: "EM",
+        action_type: "mouse left up",
+        action: [
+            -1,
+            -1,
+        ],
+        type: "event",
+    },
+    {
+        delay: 1000,
+        event_type: "EM",
+        action_type: "mouse left up",
+        action: [
+            -1,
+            -1,
+        ],
+        type: "event",
+        call: ["br"],
+    },
+
+
+    {
+      delay: 1000,
+      event_type: "EM",
       action_type: "mouse left down",
       action: [
         "0.965234375%",

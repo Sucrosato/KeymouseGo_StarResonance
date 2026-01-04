@@ -3,6 +3,20 @@ import pynput
 from pynput.mouse import Button, Controller
 import pyautogui
 mouse = Controller()
+def left():
+    pyautogui.keyDown('altleft')
+    pyautogui.mouseDown(1280, 720)
+    pyautogui.moveTo(700, 700)
+    pyautogui.mouseUp()
+    pyautogui.keyUp('altleft')
+
+def down():
+    pyautogui.keyDown('altleft')
+    pyautogui.mouseDown(1280, 720)
+    pyautogui.moveTo(1280, 1440)
+    pyautogui.mouseUp()
+    pyautogui.keyUp('altleft')
+
 
 def v1(times=80, period=10, channel_buffer=10, max_channel=25, start_channel=1):
     for i in range(times):
@@ -17,6 +31,7 @@ def v1(times=80, period=10, channel_buffer=10, max_channel=25, start_channel=1):
         sleep(1)
         pyautogui.press('esc')
         sleep(channel_buffer)
+        down()
         pyautogui.press('H')
         # pyautogui.mouseDown(1280, 720)
         sleep(period)
@@ -24,4 +39,4 @@ def v1(times=80, period=10, channel_buffer=10, max_channel=25, start_channel=1):
 
 if __name__ == '__main__':
     sleep(3)
-    v1(start_channel=21, period=15, times=100, max_channel=80, channel_buffer=15)
+    v1(start_channel=21, period=15, times=65, max_channel=80, channel_buffer=15)
