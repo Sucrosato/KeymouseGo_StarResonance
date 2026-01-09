@@ -27,6 +27,10 @@
     },
     {
       type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_dig_five_ores.json5"],
+    },
+    {
+      type: "subroutine",
       path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/3_get_daily_bonus.json5"],
     },
     {

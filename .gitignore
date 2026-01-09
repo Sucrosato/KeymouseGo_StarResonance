@@ -2,3 +2,5 @@
 logs/
 *.png
 .vscode
+data/
+do_all_accounts.py

@@ -36,7 +36,7 @@ def update_daily_report():
     """
     account_id, balance = get_id_balance()
 
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    today_str = datetime.now().strftime("%Y/%m/%d")
     
     # 1. 读取现有数据
     if os.path.exists(DATA_FILE):

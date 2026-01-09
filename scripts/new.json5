@@ -1,0 +1,40 @@
+{
+  scripts: [
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/travel0.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/travel.json5"],
+    },
+
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
+      ],
+      type: "event",
+      call: ["loop"],
+      variable: ["find", ["feierfukuangshi_1938,738,229,32", [1938, 738, 229, 32]], 5]
+    },
+    {
+      delay: 2000,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
+      ],
+      type: "event",
+    },
+
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/main_new1.json5"],
+    },
+  ],
+}
