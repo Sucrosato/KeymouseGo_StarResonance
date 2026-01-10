@@ -1,7 +1,7 @@
 {
   scripts: [
     {
-      delay: 456,
+      delay: 429,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -12,7 +12,7 @@
       type: "event",
     },
     {
-      delay: 100,
+      delay: 71,
       event_type: "EK",
       action_type: "key up",
       action: [
@@ -23,51 +23,7 @@
       type: "event",
     },
     {
-      delay: 6907,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        87,
-        "W",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 368,
-      event_type: "EK",
-      action_type: "key up",
-      action: [
-        87,
-        "W",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 1080,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        70,
-        "F",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 88,
-      event_type: "EK",
-      action_type: "key up",
-      action: [
-        70,
-        "F",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 6791,
+      delay: 6500,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -78,29 +34,7 @@
       type: "event",
     },
     {
-      delay: 504,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        68,
-        "D",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 31,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        68,
-        "D",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 9,
+      delay: 716,
       event_type: "EK",
       action_type: "key up",
       action: [
@@ -111,7 +45,7 @@
       type: "event",
     },
     {
-      delay: 321,
+      delay: 239,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -122,18 +56,7 @@
       type: "event",
     },
     {
-      delay: 506,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        87,
-        "W",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 18,
+      delay: 361,
       event_type: "EK",
       action_type: "key up",
       action: [
@@ -144,7 +67,7 @@
       type: "event",
     },
     {
-      delay: 400,
+      delay: 207,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -155,7 +78,7 @@
       type: "event",
     },
     {
-      delay: 72,
+      delay: 73,
       event_type: "EK",
       action_type: "key up",
       action: [
@@ -166,7 +89,7 @@
       type: "event",
     },
     {
-      delay: 6759,
+      delay: 6500,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -177,7 +100,7 @@
       type: "event",
     },
     {
-      delay: 305,
+      delay: 750,
       event_type: "EK",
       action_type: "key up",
       action: [
@@ -188,7 +111,7 @@
       type: "event",
     },
     {
-      delay: 259,
+      delay: 424,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -199,9 +122,9 @@
       type: "event",
     },
     {
-      delay: 505,
+      delay: 752,
       event_type: "EK",
-      action_type: "key down",
+      action_type: "key up",
       action: [
         65,
         "A",
@@ -210,34 +133,12 @@
       type: "event",
     },
     {
-      delay: 32,
+      delay: 548,
       event_type: "EK",
       action_type: "key down",
       action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 32,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 30,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
+        70,
+        "F",
         0,
       ],
       type: "event",
@@ -245,159 +146,16 @@
     {
       delay: 48,
       event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 31,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 31,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 32,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 31,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 32,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 32,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 32,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 32,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 32,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 31,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 45,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 31,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        65,
-        "A",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 13,
-      event_type: "EK",
       action_type: "key up",
       action: [
-        65,
-        "A",
+        70,
+        "F",
         0,
       ],
       type: "event",
     },
     {
-      delay: 732,
+      delay: 6500,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -408,7 +166,7 @@
       type: "event",
     },
     {
-      delay: 472,
+      delay: 264,
       event_type: "EK",
       action_type: "key up",
       action: [
@@ -419,7 +177,51 @@
       type: "event",
     },
     {
-      delay: 984,
+      delay: 164,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        65,
+        "A",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 772,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        65,
+        "A",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 295,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 573,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 184,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -430,7 +232,7 @@
       type: "event",
     },
     {
-      delay: 84,
+      delay: 59,
       event_type: "EK",
       action_type: "key up",
       action: [
@@ -441,7 +243,62 @@
       type: "event",
     },
     {
-      delay: 6852,
+      delay: 6500,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 1013,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 292,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        87,
+        "W",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 448,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 83,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 6500,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -452,7 +309,7 @@
       type: "event",
     },
     {
-      delay: 514,
+      delay: 1010,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -463,7 +320,18 @@
       type: "event",
     },
     {
-      delay: 2,
+      delay: 491,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        83,
+        "S",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 428,
       event_type: "EK",
       action_type: "key up",
       action: [
@@ -474,7 +342,7 @@
       type: "event",
     },
     {
-      delay: 307,
+      delay: 612,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -485,18 +353,7 @@
       type: "event",
     },
     {
-      delay: 509,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        68,
-        "D",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 12,
+      delay: 800,
       event_type: "EK",
       action_type: "key up",
       action: [
@@ -507,23 +364,23 @@
       type: "event",
     },
     {
-      delay: 447,
+      delay: 1000,
       event_type: "EK",
       action_type: "key down",
       action: [
-        83,
-        "S",
+        87,
+        "W",
         0,
       ],
       type: "event",
     },
     {
-      delay: 385,
+      delay: 20,
       event_type: "EK",
       action_type: "key up",
       action: [
-        83,
-        "S",
+        87,
+        "W",
         0,
       ],
       type: "event",

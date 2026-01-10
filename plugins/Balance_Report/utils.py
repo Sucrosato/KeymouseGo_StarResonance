@@ -55,7 +55,8 @@ def update_daily_report():
     # 3. 定位到“今天”这一行并更新对应的“账号”列
     # 如果今天还没记录过，.loc 会自动创建新行
     df.loc[today_str, account_id] = balance
-
+    df.loc[today_str] = df.loc[today_str].fillna(0).astype(int)
+    
     account_columns = [column for column in df.columns if column != 'TOTAL']
     df.loc[today_str, 'TOTAL'] = df.loc[today_str, account_columns].sum()
     columns = account_columns + ['TOTAL']
