@@ -10,7 +10,7 @@
       ],
       type: "event",
       call: ["lct"],
-      variable: ["xiehui", [1737, 810, 663, 585]]
+      variable: ["xiehui"]
     },
     {
       delay: 112,

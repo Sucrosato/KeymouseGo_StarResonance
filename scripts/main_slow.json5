@@ -46,6 +46,28 @@
       path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/6_guild_part_2.json5"],
     },
     {
+      type: "if",
+      judge: "isMonday",
+      do: [
+        {
+          type: "subroutine",
+          path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/6c_weekly_bonus.json5"],
+        },
+      ],
+      else: [
+        {
+          delay: 1000,
+          event_type: "EM",
+          action_type: "mouse left up",
+          action: [
+            -1,
+            -1,
+          ],
+          type: "event",
+        },
+      ],
+    },
+    {
       type: "subroutine",
       path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/7_log_out.json5"],
     },

@@ -2,27 +2,23 @@
   scripts: [
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2slow.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_slow.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2slow.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_slow.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2slow.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_slow.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2slow.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_slow.json5"],
     },
     {
       type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2slow.json5"],
-    },
-    {
-      type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/2slow.json5"],
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_slow.json5"],
     },
     {
       type: "subroutine",

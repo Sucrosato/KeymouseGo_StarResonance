@@ -1,5 +1,29 @@
 {
   scripts: [
+    
+    {
+      type: "if",
+      judge: "lct",
+      do: [
+        {
+          type: "goto",
+          tolabel: "exit", 
+        }
+      ],
+      else: [
+        {
+          delay: 1000,
+          event_type: "EM",
+          action_type: "mouse left up",
+          action: [
+            -1,
+            -1,
+          ],
+          type: "event",
+        },
+      ],
+      variable: ["yanshechaoxue", [1942, 742, 85, 25]]
+    },
     {
       delay: 913,
       event_type: "EM",
@@ -111,7 +135,7 @@
       type: "event",
     },
     {
-      delay: 30000,
+      delay: 10000,
       event_type: "EM",
       action_type: "mouse left up",
       action: [
@@ -119,6 +143,17 @@
         -1,
       ],
       type: "event",
+    },
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
+      ],
+      type: "event",
+      label: "exit",
     },
   ],
 }

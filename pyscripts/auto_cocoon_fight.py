@@ -42,7 +42,7 @@ def down():
 
 def locate(goal, region):
     location = pyautogui.locateOnScreen(
-                    'E:/Apps/git_repos/KeymouseGo/dist/plugins/Locate/pics/'+goal+'.png',
+                    'E:/Apps/git_repos/KeymouseGo/dist/data/pics/'+goal+'.png',
                     region=region,
                     confidence=0.8,
                     grayscale=True

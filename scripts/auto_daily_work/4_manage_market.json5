@@ -9,14 +9,16 @@
         "0.2375%",
       ],
       type: "event",
+      call: ["lct"],
+      variable: ["jiaoyizhongxin"],
     },
     {
       delay: 88,
       event_type: "EM",
       action_type: "mouse left up",
       action: [
-        "0.800390625%",
-        "0.2375%",
+        -1,
+        -1
       ],
       type: "event",
     },

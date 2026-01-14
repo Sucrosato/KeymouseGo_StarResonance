@@ -18,26 +18,16 @@ class Locate(PluginInterface):
             sys.stderr = open('error.log', 'w', encoding='utf-8')
 
             goal = jsonObject.content['variable'][0]
-            region = tuple(jsonObject.content['variable'][1])
+            try:
+                region = tuple(jsonObject.content['variable'][1])
+            except:
+                region = None
             target = None
             location = None
 
-            if len(jsonObject.content['variable']) >= 3 and jsonObject.content['variable'][2] == 'hold':
-                while not location:
-                    try:
-                        location = pyautogui.locateOnScreen(
-                                'E:/Apps/git_repos/KeymouseGo/dist/plugins/Locate/pics/'+goal+'.png',
-                                region=region,
-                                confidence=0.8,
-                                grayscale=True
-                        )
-                    except:
-                        sleep(1)
-                return
-
             try:
                 location = pyautogui.locateOnScreen(
-                                'E:/Apps/git_repos/KeymouseGo/dist/plugins/Locate/pics/'+goal+'.png',
+                                'E:/Apps/git_repos/KeymouseGo/dist/data/pics/'+goal+'.png',
                                 region=region,
                                 confidence=0.8,
                                 grayscale=True

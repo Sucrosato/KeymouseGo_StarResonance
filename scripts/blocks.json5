@@ -16,7 +16,6 @@
     },
 
   {
-   // jsonobject类型
    type: "if",
    judge: "registered_function_name",
    do: [

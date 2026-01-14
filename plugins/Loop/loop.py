@@ -4,7 +4,7 @@ from Plugin.Interface import PluginInterface
 from loguru import logger
 import pyautogui
 import time
-
+# 参数说明：["find"/"lose"/"times", times/[goal, region], sleep_time, press/click, key/position]
 class Loop(PluginInterface):
     def __init__(self, manifest: Dict):
         super().__init__(manifest)
@@ -31,7 +31,7 @@ class Loop(PluginInterface):
             def locate(goal, region):
                 try:
                     location = pyautogui.locateOnScreen(
-                                    'E:/Apps/git_repos/KeymouseGo/dist/plugins/Locate/pics/'+goal+'.png',
+                                    'E:/Apps/git_repos/KeymouseGo/dist/data/pics/'+goal+'.png',
                                     region=region,
                                     confidence=0.8,
                                     grayscale=True

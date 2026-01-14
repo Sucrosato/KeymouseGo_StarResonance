@@ -1,0 +1,10 @@
+{
+   // 基本信息
+   "name": "isMonday",
+   "description": "判断是否为星期一",
+   "author": "me",
+   "version": "1.0",
+   "entry": "isMonday.py",
+   "plugin_class": "IsMonday",
+   "speed": 0.1 //暂时没有用
+}

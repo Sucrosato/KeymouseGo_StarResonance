@@ -383,27 +383,5 @@
       ],
       type: "event",
     },
-    {
-      delay: 4364,
-      event_type: "EK",
-      action_type: "key down",
-      action: [
-        27,
-        "Escape",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 104,
-      event_type: "EK",
-      action_type: "key up",
-      action: [
-        27,
-        "Escape",
-        0,
-      ],
-      type: "event",
-    },
   ],
 }

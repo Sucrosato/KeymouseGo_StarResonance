@@ -20,8 +20,10 @@ def ocr_num(region):
 def get_id_balance():
     region_id = (650, 1362, 108, 27)
     balance_id = (1917, 52, 154, 33)
-    click_pos = (2060, 330)
+    # click_pos = (2060, 330)
+    click_pos = pyautogui.center(pyautogui.locateOnScreen('E:/Apps/git_repos/KeymouseGo/dist/data/pics/jiaoyizhongxin.png', region=(1730, 120, 680, 1290), confidence=0.8, grayscale=True))
 
+    
     id = ocr_num(region_id)
     pyautogui.click(click_pos[0], click_pos[1])
     time.sleep(1)
