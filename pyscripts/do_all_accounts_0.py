@@ -17,13 +17,13 @@ def get_accounts():
     ]
 
 if __name__ == '__main__':
-    time.sleep(7)
+    time.sleep(5)
     ids = get_accounts()
-    for id in ids[0][:]: 
+    for id in ids[0][:0]: 
         login(id)
         subrun()
         logout()
-    for id in ids[1][:]: 
+    for id in ids[1][-1:]: 
         login(id)
         subrun(slow=True)
         logout()

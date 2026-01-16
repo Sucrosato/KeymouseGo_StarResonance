@@ -1,29 +1,20 @@
 {
   scripts: [
     {
-      delay: 892,
-      event_type: "EK",
-      action_type: "key down",
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left up",
       action: [
-        27,
-        "Escape",
-        0,
+          -1,
+          -1,
       ],
       type: "event",
+      call: ["loop"],
+      variable: ["find", ["shezhi", [2440, 130, 94, 117]], 1.0, "press", "esc"]
     },
+    
     {
-      delay: 120,
-      event_type: "EK",
-      action_type: "key up",
-      action: [
-        27,
-        "Escape",
-        0,
-      ],
-      type: "event",
-    },
-    {
-      delay: 3000,
+      delay: 1000,
       event_type: "EM",
       action_type: "mouse left down",
       action: [
@@ -85,7 +76,7 @@
       type: "event",
     },
     {
-      delay: 1500,
+      delay: 500,
       event_type: "EM",
       action_type: "mouse left down",
       action: [
@@ -125,7 +116,7 @@
       type: "event",
     },
     {
-      delay: 1500,
+      delay: 500,
       event_type: "EM",
       action_type: "mouse left down",
       action: [
@@ -176,7 +167,7 @@
       type: "event",
     },
     {
-      delay: 76,
+      delay: 1000,
       event_type: "EK",
       action_type: "key up",
       action: [

@@ -15,12 +15,14 @@ class Loop(PluginInterface):
         def loop(jsonObject: JsonObject):
             stop_condition = jsonObject.content['variable'][0]
             condition_data = jsonObject.content['variable'][1]
-            sleep_time = jsonObject.content['variable'][2]
-            if len(jsonObject.content['variable']) > 3:
+            sleep_time = 1
+            action_type, action = None, None
+            try:
+                sleep_time = jsonObject.content['variable'][2]
                 action_type = jsonObject.content['variable'][3]
                 action = jsonObject.content['variable'][4]
-            else:
-                action_type, action = None, None
+            except:
+                pass
 
             def do_action(action_type, action):
                 if action_type == 'press':
@@ -46,13 +48,21 @@ class Loop(PluginInterface):
                         do_action(action_type, action)
                         time.sleep(sleep_time)
                 case 'find':
+                    times = 0
                     while not locate(*condition_data):
                         do_action(action_type, action)
                         time.sleep(sleep_time)
+                        times += 1
+                        if times > 100:
+                            raise RuntimeError()
                 case 'lose':
+                    times = 0
                     while locate(*condition_data):
                         do_action(action_type, action)
                         time.sleep(sleep_time)
+                        times += 1
+                        if times > 100:
+                            raise RuntimeError()
 
 
 

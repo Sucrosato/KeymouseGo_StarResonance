@@ -4,3 +4,4 @@ logs/
 .vscode
 data/
 do_all_accounts.py
+__pycache__/

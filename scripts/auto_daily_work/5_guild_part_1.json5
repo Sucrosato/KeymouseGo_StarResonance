@@ -3,6 +3,16 @@
     {
       delay: 1000,
       event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1
+      ],
+      type: "event",
+    },
+    {
+      delay: 1000,
+      event_type: "EM",
       action_type: "mouse left down",
       action: [
         "0.75546875%",
@@ -63,7 +73,7 @@
       type: "event",
     },
     {
-      delay: 15000,
+      delay: 5000,
       event_type: "EM",
       action_type: "mouse left up",
       action: [
@@ -73,10 +83,6 @@
       type: "event",
     },
 //检测是否进入协会
-    {
-      type: "if", 
-      judge: "lct",
-      do: [
         {
           delay: 1000,
           event_type: "EK",
@@ -87,16 +93,9 @@
             0,
           ],
           type: "event",
+          call: ["loop"],
+          variable: ["find", ["fangzi", [160, 108, 40, 40]]]
         },
-      ],
-      else: [
-        {
-          type: "goto",
-          tolabel: "esc", 
-        }
-      ],
-      variable: ["fangzi", [160, 108, 40, 40]]
-    },
 
     
      

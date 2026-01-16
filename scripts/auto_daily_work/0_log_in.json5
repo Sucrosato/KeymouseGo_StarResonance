@@ -1,7 +1,7 @@
 {
   scripts: [
     {
-      delay: 5000,
+      delay: 1000,
       event_type: "EM",
       action_type: "mouse left down",
       action: [
@@ -9,6 +9,8 @@
         "0.8388888888888889%",
       ],
       type: "event",
+      call: ["loop"],
+      variable: ["find", ["shilingtishi", [2358, 1155, 200, 200]]],
     },
     {
       delay: 132,
@@ -29,6 +31,8 @@
         "0.5284722222222222%",
       ],
       type: "event",
+      // call: ["loop"],
+      // variable: ["find", ["juesexuanze", [0, 0, 300, 150]]],
     },
     {
       delay: 101,
@@ -61,7 +65,7 @@
       type: "event",
     },
     {
-      delay: 15000,
+      delay: 1000,
       event_type: "EM",
       action_type: "mouse left up",
       action: [

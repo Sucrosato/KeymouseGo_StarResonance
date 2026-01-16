@@ -18,10 +18,15 @@ class Locate(PluginInterface):
             sys.stderr = open('error.log', 'w', encoding='utf-8')
 
             goal = jsonObject.content['variable'][0]
+            region = None
+            confidence = 0.8
+            grayscale = True
             try:
                 region = tuple(jsonObject.content['variable'][1])
+                confidence = jsonObject.content['variable'][2]
+                grayscale = jsonObject.content['variable'][3]
             except:
-                region = None
+                pass
             target = None
             location = None
 
@@ -29,8 +34,8 @@ class Locate(PluginInterface):
                 location = pyautogui.locateOnScreen(
                                 'E:/Apps/git_repos/KeymouseGo/dist/data/pics/'+goal+'.png',
                                 region=region,
-                                confidence=0.8,
-                                grayscale=True
+                                confidence=confidence,
+                                grayscale=grayscale
                             )
                 point = pyautogui.center(location)
                 target = [int(point.x), int(point.y)]

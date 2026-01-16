@@ -3,7 +3,17 @@
 
   ],
 }
-
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.499609375%",
+        "0.49930555555555556%",
+      ],
+      type: "event",
+    },
+    
     {
       delay: 1000,
       event_type: "EM",

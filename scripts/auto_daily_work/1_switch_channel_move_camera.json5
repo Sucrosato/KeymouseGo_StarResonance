@@ -143,7 +143,7 @@
       type: "event",
     },
     {
-      delay: 15000,
+      delay: 1000,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -152,6 +152,8 @@
         0,
       ],
       type: "event",
+      call: ["loop"],
+      variable: ["find", ["feierfukuangshi_1938,738,229,32", [1938, 738, 229, 32]]],
     },
     {
       delay: 1000,

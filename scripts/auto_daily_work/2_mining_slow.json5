@@ -1,0 +1,193 @@
+{
+  scripts: [
+
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_slow.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_slow.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_slow.json5"],
+    },
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_slow.json5"],
+    },
+
+    {
+      delay: 1000,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        27,
+        "Escape",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 100,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        27,
+        "Escape",
+        0,
+      ],
+      type: "event",
+    },{
+      delay: 1500,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
+      ],
+      type: "event",
+    },
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        -1,
+        -1
+      ],
+      type: "event",
+      call: ["lct"],
+      variable: ["shenghuozhiye"]
+    },
+    
+    {
+      delay: 100,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
+      ],
+      type: "event",
+    },
+    {
+      delay: 1500,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
+      ],
+      type: "event",
+    },
+
+    {
+        type: "if",
+        judge: "lct",
+        do: [
+            {
+                delay: 1000,
+                event_type: "EK",
+                action_type: "key down",
+                action: [
+                    27,
+                    "Escape",
+                    0,
+                ],
+                type: "event",
+                },
+                {
+                delay: 104,
+                event_type: "EK",
+                action_type: "key up",
+                action: [
+                    27,
+                    "Escape",
+                    0,
+                ],
+                type: "event",
+            },
+            {
+                delay: 1000,
+                event_type: "EK",
+                action_type: "key down",
+                action: [
+                    27,
+                    "Escape",
+                    0,
+                ],
+                type: "event",
+                },
+                {
+                delay: 104,
+                event_type: "EK",
+                action_type: "key up",
+                action: [
+                    27,
+                    "Escape",
+                    0,
+                ],
+                type: "event",
+            },
+            
+        ],
+        else: [
+            {
+                delay: 1000,
+                event_type: "EK",
+                action_type: "key down",
+                action: [
+                    27,
+                    "Escape",
+                    0,
+                ],
+                type: "event",
+                },
+                {
+                delay: 104,
+                event_type: "EK",
+                action_type: "key up",
+                action: [
+                    27,
+                    "Escape",
+                    0,
+                ],
+                type: "event",
+            },
+            {
+                delay: 1000,
+                event_type: "EK",
+                action_type: "key down",
+                action: [
+                    27,
+                    "Escape",
+                    0,
+                ],
+                type: "event",
+                },
+                {
+                delay: 104,
+                event_type: "EK",
+                action_type: "key up",
+                action: [
+                    27,
+                    "Escape",
+                    0,
+                ],
+                type: "event",
+            },
+            {
+                type: "subroutine",
+                path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_slow.json5"],
+            },
+        ],
+        variable: ["zhuanzhu0"],
+    },
+
+
+
+
+  ],
+}
