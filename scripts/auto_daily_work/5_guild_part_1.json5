@@ -133,6 +133,50 @@
       type: "event",
     },
     {
+      delay: 1044,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 96,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 1044,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 96,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        70,
+        "F",
+        0,
+      ],
+      type: "event",
+    },
+    {
       delay: 1524,
       event_type: "EK",
       action_type: "key down",
