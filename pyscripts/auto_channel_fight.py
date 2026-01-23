@@ -39,4 +39,4 @@ def v1(times=80, period=10, channel_buffer=10, max_channel=25, start_channel=1):
 
 if __name__ == '__main__':
     sleep(3)
-    v1(start_channel=21, period=15, times=100, max_channel=25, channel_buffer=15)
+    v1(start_channel=21, period=15, times=100, max_channel=80, channel_buffer=15)

@@ -1,9 +1,16 @@
 {
   scripts: [
-
+    
     {
-      type: "subroutine",
-      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_dig_five_ores.json5"],
+      delay: 1000,
+      event_type: "EK",
+      action_type: "key down",
+      action: [
+        164,
+        "Lmenu",
+        0,
+      ],
+      type: "event",
     },
     {
       type: "subroutine",
@@ -17,7 +24,21 @@
       type: "subroutine",
       path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_dig_five_ores.json5"],
     },
-
+    {
+      type: "subroutine",
+      path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_dig_five_ores.json5"],
+    },
+    {
+      delay: 1000,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        164,
+        "Lmenu",
+        0,
+      ],
+      type: "event",
+    },
     {
       delay: 1000,
       event_type: "EK",
@@ -179,6 +200,17 @@
                 type: "event",
             },
             {
+              delay: 1000,
+              event_type: "EK",
+              action_type: "key down",
+              action: [
+                164,
+                "Lmenu",
+                0,
+              ],
+              type: "event",
+            },
+            {
                 type: "subroutine",
                 path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/2_dig_five_ores.json5"],
             },
@@ -186,7 +218,18 @@
         variable: ["zhuanzhu0"],
     },
 
-
+    
+    {
+      delay: 1000,
+      event_type: "EK",
+      action_type: "key up",
+      action: [
+        164,
+        "Lmenu",
+        0,
+      ],
+      type: "event",
+    },
 
 
   ],

@@ -13,6 +13,10 @@
       variable: ["find", ["shezhi", [2440, 130, 94, 117]], 1.0, "press", "esc"]
     },
     
+    // {
+    //   type: "subroutine",
+    //   path: ["E:/Apps/git_repos/KeymouseGo/dist/scripts/auto_daily_work/ex_learn_mining_talents.json5"],
+    // },
 
     {
       delay: 1000, 
