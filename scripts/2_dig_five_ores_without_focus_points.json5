@@ -1,7 +1,17 @@
 {
   scripts: [
     {
-      delay: 429,
+      delay: 100,
+      event_type: "EM",
+      action_type: "mouse wheel down",
+      action: [
+        -1,
+        -1
+      ],
+      type: "event",
+    },
+    {
+      delay: 100,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -23,7 +33,7 @@
       type: "event",
     },
     {
-      delay: 6000,
+      delay: 3269,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -67,7 +77,17 @@
       type: "event",
     },
     {
-      delay: 207,
+      delay: 100,
+      event_type: "EM",
+      action_type: "mouse wheel down",
+      action: [
+        -1,
+        -1
+      ],
+      type: "event",
+    },
+    {
+      delay: 100,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -89,7 +109,7 @@
       type: "event",
     },
     {
-      delay: 6000,
+      delay: 3363,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -133,7 +153,17 @@
       type: "event",
     },
     {
-      delay: 548,
+      delay: 100,
+      event_type: "EM",
+      action_type: "mouse wheel down",
+      action: [
+        -1,
+        -1
+      ],
+      type: "event",
+    },
+    {
+      delay: 100,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -155,7 +185,7 @@
       type: "event",
     },
     {
-      delay: 6000,
+      delay: 4001,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -221,7 +251,17 @@
       type: "event",
     },
     {
-      delay: 184,
+      delay: 100,
+      event_type: "EM",
+      action_type: "mouse wheel down",
+      action: [
+        -1,
+        -1
+      ],
+      type: "event",
+    },
+    {
+      delay: 100,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -243,7 +283,7 @@
       type: "event",
     },
     {
-      delay: 6000,
+      delay: 3564,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -276,7 +316,17 @@
       type: "event",
     },
     {
-      delay: 448,
+      delay: 100,
+      event_type: "EM",
+      action_type: "mouse wheel down",
+      action: [
+        -1,
+        -1
+      ],
+      type: "event",
+    },
+    {
+      delay: 100,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -298,7 +348,7 @@
       type: "event",
     },
     {
-      delay: 6000,
+      delay: 4148,
       event_type: "EK",
       action_type: "key down",
       action: [
@@ -364,7 +414,7 @@
       type: "event",
     },
     {
-      delay: 200,
+      delay: 4399,
       event_type: "EK",
       action_type: "key down",
       action: [

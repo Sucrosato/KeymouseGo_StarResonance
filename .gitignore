@@ -5,3 +5,5 @@ logs/
 data/
 do_all_accounts.py
 __pycache__/
+pyscripts/do_all_accounts_0.py
+pyscripts/do_all_accounts_1.py
