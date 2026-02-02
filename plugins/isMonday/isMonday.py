@@ -2,7 +2,7 @@ from typing import Dict, Callable, Any
 from Util.Parser import JsonObject
 from Plugin.Interface import PluginInterface
 from loguru import logger
-from datetime import datetime
+from datetime import datetime, timedelta
 
 class IsMonday(PluginInterface):
     def __init__(self, manifest: Dict):
@@ -12,10 +12,8 @@ class IsMonday(PluginInterface):
         funcs: Dict[str, Callable] = {}
 
         def isMonday(jsonObject: JsonObject):
-            # delay: int = jsonObject.content['delay']
-            # factor = self.meta.speed
-            # jsonObject.content['delay'] = int(delay / factor)
-            return datetime.now().weekday() == 0
+            shifted_time = datetime.now() - timedelta(hours=5)
+            return shifted_time.weekday() == 0
 
         funcs['isMonday'] = isMonday
 

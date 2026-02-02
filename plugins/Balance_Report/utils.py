@@ -1,7 +1,7 @@
 import pyautogui
 import pytesseract
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 import time
 
@@ -38,7 +38,7 @@ def update_daily_report():
     """
     account_id, balance = get_id_balance()
 
-    today_str = datetime.now().strftime("%Y/%m/%d")
+    today_str = (datetime.now() - timedelta(hours=5)).strftime("%Y/%m/%d")
     
     # 1. 读取现有数据
     if os.path.exists(DATA_FILE):

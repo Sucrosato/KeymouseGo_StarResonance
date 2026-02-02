@@ -21,6 +21,7 @@ class Locate(PluginInterface):
             region = None
             confidence = 0.8
             grayscale = True
+            delay = 1.0
             try:
                 region = tuple(jsonObject.content['variable'][1])
                 confidence = jsonObject.content['variable'][2]
@@ -31,6 +32,7 @@ class Locate(PluginInterface):
             location = None
 
             try:
+                sleep(delay)
                 location = pyautogui.locateOnScreen(
                                 'E:/Apps/git_repos/KeymouseGo/dist/data/pics/'+goal+'.png',
                                 region=region,

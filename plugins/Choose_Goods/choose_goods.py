@@ -57,6 +57,13 @@ class ChooseGoods(PluginInterface):
             return -1
 
         def choose_goods(jsonObject: JsonObject):
+            try:
+                lct = pyautogui.locateOnScreen(r'E:\Apps\git_repos\KeymouseGo\dist\data\pics\julifjhvugyu,1700,410,313,69.png', grayscale=True, region=[1700,410,313,69], confidence=0.8)
+                if lct:
+                    return False
+            except:
+                pass
+
             target = decide_target(get_prices(regions))
             # delay: int = jsonObject.content['delay']
             # factor = self.meta.speed
