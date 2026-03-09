@@ -5,6 +5,18 @@
       event_type: "EM",
       action_type: "mouse left up",
       action: [
+          -1,
+          -1,
+      ],
+      type: "event",
+      call: ["loop"],
+      variable: ["find", ["shezhi", [2440, 130, 94, 117]], 1.0, "press", "esc"]
+    },
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
         -1,
         -1
       ],
@@ -195,6 +207,26 @@
         27,
         "Escape",
         0,
+      ],
+      type: "event",
+    },
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.5%",
+        "0.9%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 129,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
       ],
       type: "event",
     },
@@ -441,7 +473,37 @@
       type: "event",
       label: "esc",
     },
-
+    
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left down",
+      action: [
+        "0.5%",
+        "0.9%",
+      ],
+      type: "event",
+    },
+    {
+      delay: 129,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
+      ],
+      type: "event",
+    },
+    {
+      delay: 1000,
+      event_type: "EM",
+      action_type: "mouse left up",
+      action: [
+        -1,
+        -1,
+      ],
+      type: "event",
+    },
 
   ],
 }

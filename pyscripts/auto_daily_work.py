@@ -94,10 +94,10 @@ def logout():
     pyautogui.click(1721, 596)
     time.sleep(10)
 
-def subrun(slow=False):
-    if not slow:
-        result = subprocess.run([r'E:\Apps\git_repos\KeymouseGo\dist\KeymouseGo.exe', r'E:\Apps\git_repos\KeymouseGo\dist\scripts\mainx3.json5'], capture_output=True, text=True)
-    else:
-        result = subprocess.run([r'E:\Apps\git_repos\KeymouseGo\dist\KeymouseGo.exe', r'E:\Apps\git_repos\KeymouseGo\dist\scripts\mainx3_slow.json5'], capture_output=True, text=True)
+def subrun(task='all'):
+    script = {'all': r'E:\Apps\git_repos\KeymouseGo\dist\scripts\mainx3.json5', 
+              'slow': r'E:\Apps\git_repos\KeymouseGo\dist\scripts\mainx3_slow.json5', # for characters unable to mine in 2 sec
+              'guild': r'E:\Apps\git_repos\KeymouseGo\dist\scripts\trible_guild.json5'} # only do guild jobs
+    result = subprocess.run([r'E:\Apps\git_repos\KeymouseGo\dist\KeymouseGo.exe', script[task]], capture_output=True, text=True)
     print("错误信息：", result.stderr)
     print("退出状态：", result.returncode)
